@@ -235,7 +235,7 @@ void traverse(TreeNode root) {
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [东哥带你刷二叉搜索树（基操篇）](https://labuladong.github.io/article/fname.html?fname=BST2)
+ - [东哥带你刷二叉搜索树（基操篇）](./../数据结构系列/BST2.md)
  - [东哥带你刷二叉搜索树（构造篇）](https://labuladong.github.io/article/fname.html?fname=BST3)
  - [二叉树的递归转迭代的代码框架](https://labuladong.github.io/article/fname.html?fname=迭代遍历二叉树)
 

@@ -22,17 +22,17 @@ LRU 缓存淘汰算法就是一种常用策略。LRU 的全称是 Least Recently
 
 举个简单的例子，安卓手机都可以把软件放到后台运行，比如我先后打开了「设置」「手机管家」「日历」，那么现在他们在后台排列的顺序是这样的：
 
-![](https://labuladong.github.io/pictures/LRU算法/1.jpg)
+![](./../pictures/LRU算法/1.jpg)
 
 但是这时候如果我访问了一下「设置」界面，那么「设置」就会被提前到第一个，变成这样：
 
-![](https://labuladong.github.io/pictures/LRU算法/2.jpg)
+![](./../pictures/LRU算法/2.jpg)
 
 假设我的手机只允许我同时开 3 个应用程序，现在已经满了。那么如果我新开了一个应用「时钟」，就必须关闭一个应用为「时钟」腾出一个位置，关那个呢？
 
 按照 LRU 的策略，就关最底下的「手机管家」，因为那是最久未使用的，然后把新开的应用放到最上面：
 
-![](https://labuladong.github.io/pictures/LRU算法/3.jpg)
+![](./../pictures/LRU算法/3.jpg)
 
 现在你应该理解 LRU（Least Recently Used）策略了。当然还有其他缓存淘汰策略，比如不要按访问的时序来淘汰，而是按访问频率（LFU 策略）来淘汰等等，各有应用场景。本文讲解 LRU 算法策略，我会在 [LFU 算法详解](https://labuladong.github.io/article/fname.html?fname=LFU) 中讲解 LFU 算法。
 
@@ -94,7 +94,7 @@ cache.put(1, 4);
 
 LRU 缓存算法的核心数据结构就是哈希链表，双向链表和哈希表的结合体。这个数据结构长这样：
 
-![](https://labuladong.github.io/pictures/LRU算法/4.jpg)
+![](./../pictures/LRU算法/4.jpg)
 
 借助这个结构，我们来逐一分析上面的 3 个条件：
 
@@ -274,7 +274,7 @@ class LRUCache {
 
 `put` 方法稍微复杂一些，我们先来画个图搞清楚它的逻辑：
 
-![](https://labuladong.github.io/pictures/LRU算法/put.jpg)
+![](./../pictures/LRU算法/put.jpg)
 
 这样我们可以轻松写出 `put` 方法的代码：
 
@@ -361,11 +361,11 @@ class LRUCache {
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [一文看懂 session 和 cookie](https://labuladong.github.io/article/fname.html?fname=session和cookie)
+ - [一文看懂 session 和 cookie](./../技术/session和cookie.md)
  - [常数时间删除/查找数组中的任意元素](https://labuladong.github.io/article/fname.html?fname=随机集合)
  - [数据结构设计：最大栈](https://labuladong.github.io/article/fname.html?fname=最大栈)
  - [算法就像搭乐高：带你手撸 LFU 算法](https://labuladong.github.io/article/fname.html?fname=LFU)
- - [算法笔试「骗分」套路](https://labuladong.github.io/article/fname.html?fname=刷题技巧)
+ - [算法笔试「骗分」套路](./../技术/刷题技巧.md)
 
 </details><hr>
 

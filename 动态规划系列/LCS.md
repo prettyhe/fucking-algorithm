@@ -39,7 +39,7 @@ int longestCommonSubsequence(String s1, String s2);
 
 显然，这种思路的复杂度非常高，你要穷举出所有子序列，这个复杂度就是指数级的，肯定不实际。
 
-正确的思路是不要考虑整个字符串，而是细化到 `s1` 和 `s2` 的每个字符。前文 [子序列解题模板](https://labuladong.github.io/article/fname.html?fname=子序列问题模板) 中总结的一个规律：
+正确的思路是不要考虑整个字符串，而是细化到 `s1` 和 `s2` 的每个字符。前文 [子序列解题模板](./../动态规划系列/子序列问题模板.md) 中总结的一个规律：
 
 
 
@@ -47,8 +47,8 @@ int longestCommonSubsequence(String s1, String s2);
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [动态规划之子序列问题解题模板](https://labuladong.github.io/article/fname.html?fname=子序列问题模板)
- - [经典动态规划：编辑距离](https://labuladong.github.io/article/fname.html?fname=编辑距离)
+ - [动态规划之子序列问题解题模板](./../动态规划系列/子序列问题模板.md)
+ - [经典动态规划：编辑距离](./../动态规划系列/编辑距离.md)
 
 </details><hr>
 
@@ -75,4 +75,4 @@ int longestCommonSubsequence(String s1, String s2);
 
 本文为会员内容，请扫码关注公众号或 [点这里](https://appktavsiei5995.pc.xiaoe-tech.com/detail/i_6298793ae4b09dda12708be8/1) 查看：
 
-![](https://labuladong.github.io/pictures/qrcode.jpg)
+![](./../pictures/qrcode.jpg)

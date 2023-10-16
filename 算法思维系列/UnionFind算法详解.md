@@ -15,17 +15,17 @@
 
 **-----------**
 
-记得我之前在讲 [图论算法基础](https://labuladong.github.io/article/fname.html?fname=图) 时说图论相关的算法不会经常考，但最近被打脸了，因为一些读者和我反馈近期求职面试涉及很多图论相关的算法，可能是因为环境不好所以算法这块更卷了吧。
+记得我之前在讲 [图论算法基础](./../数据结构系列/图.md) 时说图论相关的算法不会经常考，但最近被打脸了，因为一些读者和我反馈近期求职面试涉及很多图论相关的算法，可能是因为环境不好所以算法这块更卷了吧。
 
 常见的图论算法我都已经写过了，这里按难度顺序列举一下：
 
-1. [图论算法基础](https://labuladong.github.io/article/fname.html?fname=图)
+1. [图论算法基础](./../数据结构系列/图.md)
 2. [二分图判定算法及应用](https://labuladong.github.io/article/fname.html?fname=二分图)
-3. [环检测/拓扑排序算法及应用](https://labuladong.github.io/article/fname.html?fname=拓扑排序)
+3. [环检测/拓扑排序算法及应用](./../数据结构系列/拓扑排序.md)
 4. 并查集算法及应用（本文）
 5. [Kruskal 最小生成树算法及应用](https://labuladong.github.io/article/fname.html?fname=kruskal)
 6. [Prim 最小生成树算法及应用](https://labuladong.github.io/article/fname.html?fname=prim算法)
-7. [Dijkstra 算法模板及应用](https://labuladong.github.io/article/fname.html?fname=dijkstra算法)
+7. [Dijkstra 算法模板及应用](./../数据结构系列/dijkstra算法.md)
 
 并查集（Union-Find）算法是一个专门针对「动态连通性」的算法，我之前写过两次，因为这个算法的考察频率高，而且它也是最小生成树算法的前置知识，所以我整合了本文，争取一篇文章把这个算法讲明白。
 
@@ -35,7 +35,7 @@
 
 简单说，动态连通性其实可以抽象成给一幅图连线。比如下面这幅图，总共有 10 个节点，他们互不相连，分别用 0~9 标记：
 
-![](https://labuladong.github.io/pictures/unionfind/1.jpg)
+![](./../pictures/unionfind/1.jpg)
 
 现在我们的 Union-Find 算法主要需要实现这两个 API：
 
@@ -65,7 +65,7 @@ class UF {
 
 再调用 `union(1, 2)`，这时 0,1,2 都被连通，调用 `connected(0, 2)` 也会返回 true，连通分量变为 8 个。
 
-![](https://labuladong.github.io/pictures/unionfind/2.jpg)
+![](./../pictures/unionfind/2.jpg)
 
 判断这种「等价关系」非常实用，比如说编译器判断同一个变量的不同引用，比如社交网络中的朋友圈计算等等。
 
@@ -77,7 +77,7 @@ class UF {
 
 怎么用森林来表示连通性呢？我们设定树的每个节点有一个指针指向其父节点，如果是根节点的话，这个指针指向自己。比如说刚才那幅 10 个节点的图，一开始的时候没有相互连通，就是这样：
 
-![](https://labuladong.github.io/pictures/unionfind/3.jpg)
+![](./../pictures/unionfind/3.jpg)
 
 <!-- muliti_language -->
 ```java
@@ -103,7 +103,7 @@ class UF {
 
 **如果某两个节点被连通，则让其中的（任意）一个节点的根节点接到另一个节点的根节点上**：
 
-![](https://labuladong.github.io/pictures/unionfind/4.jpg)
+![](./../pictures/unionfind/4.jpg)
 
 <!-- muliti_language -->
 ```java
@@ -138,7 +138,7 @@ class UF {
 
 **这样，如果节点 `p` 和 `q` 连通的话，它们一定拥有相同的根节点**：
 
-![](https://labuladong.github.io/pictures/unionfind/5.jpg)
+![](./../pictures/unionfind/5.jpg)
 
 <!-- muliti_language -->
 ```java
@@ -159,7 +159,7 @@ class UF {
 
 `find` 主要功能就是从某个节点向上遍历到树根，其时间复杂度就是树的高度。我们可能习惯性地认为树的高度就是 `logN`，但这并不一定。`logN` 的高度只存在于平衡二叉树，对于一般的树可能出现极端不平衡的情况，使得「树」几乎退化成「链表」，树的高度最坏情况下可能变成  `N`。
 
-![](https://labuladong.github.io/pictures/unionfind/6.jpg)
+![](./../pictures/unionfind/6.jpg)
 
 所以说上面这种解法，`find` , `union` , `connected` 的时间复杂度都是 O(N)。这个复杂度很不理想的，你想图论解决的都是诸如社交网络这样数据规模巨大的问题，对于 `union` 和 `connected` 的调用非常频繁，每次调用需要线性时间完全不可忍受。
 
@@ -189,7 +189,7 @@ class UF {
 
 我们一开始就是简单粗暴的把 `p` 所在的树接到 `q` 所在的树的根节点下面，那么这里就可能出现「头重脚轻」的不平衡状况，比如下面这种局面：
 
-![](https://labuladong.github.io/pictures/unionfind/7.jpg)
+![](./../pictures/unionfind/7.jpg)
 
 长此以往，树可能生长得很不平衡。**我们其实是希望，小一些的树接到大一些的树下面，这样就能避免头重脚轻，更平衡一些**。解决方法是额外使用一个 `size` 数组，记录每棵树包含的节点数，我们不妨称为「重量」：
 
@@ -255,7 +255,7 @@ class UF {
 
 因为无论树长啥样，树上的每个节点的根节点都是相同的，所以能不能进一步压缩每棵树的高度，使树高始终保持为常数？
 
-![](https://labuladong.github.io/pictures/unionfind/8.jpg)
+![](./../pictures/unionfind/8.jpg)
 
 这样每个节点的父节点就是整棵树的根节点，`find` 就能以 O(1) 的时间找到某一节点的根节点，相应的，`connected` 和 `union` 复杂度都下降为 O(1)。
 
@@ -281,7 +281,7 @@ class UF {
 
 这个操作有点匪夷所思，看个 GIF 就明白它的作用了（为清晰起见，这棵树比较极端）：
 
-![](https://labuladong.github.io/pictures/unionfind/9.gif)
+![](./../pictures/unionfind/9.gif)
 
 用语言描述就是，每次 while 循环都会让部分子节点向上移动，这样每次调用 `find` 函数向树根遍历的同时，顺手就将树高缩短了。
 
@@ -443,11 +443,11 @@ void solve(char[][] board);
 
 注意哦，必须是四面被围的 `O` 才能被换成 `X`，也就是说边角上的 `O` 一定不会被围，进一步，与边角上的 `O` 相连的 `O` 也不会被 `X` 围四面，也不会被替换。
 
-![](https://labuladong.github.io/pictures/unionfind应用/2.jpg)
+![](./../pictures/unionfind应用/2.jpg)
 
 > note：这让我想起小时候玩的棋类游戏「黑白棋」，只要你用两个棋子把对方的棋子夹在中间，对方的子就被替换成你的子。可见，占据四角的棋子是无敌的，与其相连的边棋子也是无敌的（无法被夹掉）。
 
-其实这个问题应该归为 [岛屿系列问题](https://labuladong.github.io/article/fname.html?fname=岛屿题目) 使用 DFS 算法解决：
+其实这个问题应该归为 [岛屿系列问题](./../高频面试系列/岛屿题目.md) 使用 DFS 算法解决：
 
 先用 for 循环遍历棋盘的**四边**，用 DFS 算法把那些与边界相连的 `O` 换成一个特殊字符，比如 `#`；然后再遍历整个棋盘，把剩下的 `O` 换成 `X`，把 `#` 恢复成 `O`。这样就能完成题目的要求，时间复杂度 O(MN)。
 
@@ -455,7 +455,7 @@ void solve(char[][] board);
 
 **你可以把那些不需要被替换的 `O` 看成一个拥有独门绝技的门派，它们有一个共同「祖师爷」叫 `dummy`，这些 `O` 和 `dummy` 互相连通，而那些需要被替换的 `O` 与 `dummy` 不连通**。
 
-![](https://labuladong.github.io/pictures/unionfind应用/3.jpg)
+![](./../pictures/unionfind应用/3.jpg)
 
 这就是 Union-Find 的核心思路，明白这个图，就很容易看懂代码了。
 
@@ -572,10 +572,10 @@ class UF {
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [Dijkstra 算法模板及应用](https://labuladong.github.io/article/fname.html?fname=dijkstra算法)
+ - [Dijkstra 算法模板及应用](./../数据结构系列/dijkstra算法.md)
  - [Kruskal 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=kruskal)
  - [Prim 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=prim算法)
- - [一文秒杀所有岛屿题目](https://labuladong.github.io/article/fname.html?fname=岛屿题目)
+ - [一文秒杀所有岛屿题目](./../高频面试系列/岛屿题目.md)
  - [二分图判定算法](https://labuladong.github.io/article/fname.html?fname=二分图)
  - [我的刷题心得](https://labuladong.github.io/article/fname.html?fname=算法心得)
  - [用算法打败算法](https://labuladong.github.io/article/fname.html?fname=PDF中的算法)
