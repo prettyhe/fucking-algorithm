@@ -2,7 +2,7 @@
 
 ## 背景
 
-为了帮助大家更好地学习算法，我之前写了很多算法教程，并开发了一系列刷题插件，统称为《labuladong 的刷题全家桶》，详情见 [这里](https://labuladong.github.io/article/fname.html?fname=全家桶简介)。
+为了帮助大家更好地学习算法，我之前写了很多算法教程，并开发了一系列刷题插件，统称为《labuladong 的刷题全家桶》，详情见 [这里](https://labuladong.gitee.io/article/fname.html?fname=全家桶简介)。
 
 在我的教程和插件中的解法主要使用的是 Java 语言，原因是 Java 这门语言中规中矩，就算之前没有接触过，也能比较容易看懂逻辑。不过现在这不是 chatGPT 横空出世了嘛，我就借助 chatGPT 把我的解法改写成多种语言，希望对不同技术背景的小伙伴更加友好。
 

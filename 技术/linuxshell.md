@@ -342,7 +342,7 @@ tail | grep '下一篇' $filename
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [Linux 管道和重定向的坑](https://labuladong.github.io/article/fname.html?fname=linux技巧3)
+ - [Linux 管道和重定向的坑](https://labuladong.gitee.io/article/fname.html?fname=linux技巧3)
 
 </details><hr>
 

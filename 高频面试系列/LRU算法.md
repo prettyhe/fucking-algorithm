@@ -34,7 +34,7 @@ LRU 缓存淘汰算法就是一种常用策略。LRU 的全称是 Least Recently
 
 ![](./../pictures/LRU算法/3.jpg)
 
-现在你应该理解 LRU（Least Recently Used）策略了。当然还有其他缓存淘汰策略，比如不要按访问的时序来淘汰，而是按访问频率（LFU 策略）来淘汰等等，各有应用场景。本文讲解 LRU 算法策略，我会在 [LFU 算法详解](https://labuladong.github.io/article/fname.html?fname=LFU) 中讲解 LFU 算法。
+现在你应该理解 LRU（Least Recently Used）策略了。当然还有其他缓存淘汰策略，比如不要按访问的时序来淘汰，而是按访问频率（LFU 策略）来淘汰等等，各有应用场景。本文讲解 LRU 算法策略，我会在 [LFU 算法详解](https://labuladong.gitee.io/article/fname.html?fname=LFU) 中讲解 LFU 算法。
 
 ### 一、LRU 算法描述
 
@@ -353,7 +353,7 @@ class LRUCache {
 
 接下来可阅读：
 
-* [手把手带你实现 LFU 算法](https://labuladong.github.io/article/fname.html?fname=LFU)
+* [手把手带你实现 LFU 算法](https://labuladong.gitee.io/article/fname.html?fname=LFU)
 
 
 
@@ -362,9 +362,9 @@ class LRUCache {
 <summary><strong>引用本文的文章</strong></summary>
 
  - [一文看懂 session 和 cookie](./../技术/session和cookie.md)
- - [常数时间删除/查找数组中的任意元素](https://labuladong.github.io/article/fname.html?fname=随机集合)
- - [数据结构设计：最大栈](https://labuladong.github.io/article/fname.html?fname=最大栈)
- - [算法就像搭乐高：带你手撸 LFU 算法](https://labuladong.github.io/article/fname.html?fname=LFU)
+ - [常数时间删除/查找数组中的任意元素](https://labuladong.gitee.io/article/fname.html?fname=随机集合)
+ - [数据结构设计：最大栈](https://labuladong.gitee.io/article/fname.html?fname=最大栈)
+ - [算法就像搭乐高：带你手撸 LFU 算法](https://labuladong.gitee.io/article/fname.html?fname=LFU)
  - [算法笔试「骗分」套路](./../技术/刷题技巧.md)
 
 </details><hr>
@@ -376,7 +376,7 @@ class LRUCache {
 <details class="hint-container details">
 <summary><strong>引用本文的题目</strong></summary>
 
-<strong>安装 [我的 Chrome 刷题插件](https://labuladong.github.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
+<strong>安装 [我的 Chrome 刷题插件](https://labuladong.gitee.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
 
 | LeetCode | 力扣 |
 | :----: | :----: |

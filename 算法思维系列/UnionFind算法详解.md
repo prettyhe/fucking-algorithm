@@ -20,11 +20,11 @@
 常见的图论算法我都已经写过了，这里按难度顺序列举一下：
 
 1. [图论算法基础](./../数据结构系列/图.md)
-2. [二分图判定算法及应用](https://labuladong.github.io/article/fname.html?fname=二分图)
+2. [二分图判定算法及应用](https://labuladong.gitee.io/article/fname.html?fname=二分图)
 3. [环检测/拓扑排序算法及应用](./../数据结构系列/拓扑排序.md)
 4. 并查集算法及应用（本文）
-5. [Kruskal 最小生成树算法及应用](https://labuladong.github.io/article/fname.html?fname=kruskal)
-6. [Prim 最小生成树算法及应用](https://labuladong.github.io/article/fname.html?fname=prim算法)
+5. [Kruskal 最小生成树算法及应用](https://labuladong.gitee.io/article/fname.html?fname=kruskal)
+6. [Prim 最小生成树算法及应用](https://labuladong.gitee.io/article/fname.html?fname=prim算法)
 7. [Dijkstra 算法模板及应用](./../数据结构系列/dijkstra算法.md)
 
 并查集（Union-Find）算法是一个专门针对「动态连通性」的算法，我之前写过两次，因为这个算法的考察频率高，而且它也是最小生成树算法的前置知识，所以我整合了本文，争取一篇文章把这个算法讲明白。
@@ -331,7 +331,7 @@ public int find(int x) {
 
 ![](https://labuladong.github.io/pictures/unionfind/10.jpeg)
 
-比起第一种路径压缩，显然这种方法压缩得更彻底，直接把一整条树枝压平，一点意外都没有。就算一些极端情况下产生了一棵比较高的树，只要一次路径压缩就能大幅降低树高，从 [摊还分析](https://labuladong.github.io/article/fname.html?fname=时间复杂度) 的角度来看，所有操作的平均时间复杂度依然是 O(1)，所以从效率的角度来说，推荐你使用这种路径压缩算法。
+比起第一种路径压缩，显然这种方法压缩得更彻底，直接把一整条树枝压平，一点意外都没有。就算一些极端情况下产生了一棵比较高的树，只要一次路径压缩就能大幅降低树高，从 [摊还分析](https://labuladong.gitee.io/article/fname.html?fname=时间复杂度) 的角度来看，所有操作的平均时间复杂度依然是 O(1)，所以从效率的角度来说，推荐你使用这种路径压缩算法。
 
 **另外，如果使用路径压缩技巧，那么 `size` 数组的平衡优化就不是特别必要了**。所以你一般看到的 Union Find 算法应该是如下实现：
 
@@ -564,7 +564,7 @@ class UF {
 
 至此，这道判断算式合法性的问题就解决了，借助 Union-Find 算法，是不是很简单呢？
 
-最后，Union-Find 算法也会在一些其他经典图论算法中用到，比如判断「图」和「树」，以及最小生成树的计算，详情见 [Kruskal 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=kruskal)。
+最后，Union-Find 算法也会在一些其他经典图论算法中用到，比如判断「图」和「树」，以及最小生成树的计算，详情见 [Kruskal 最小生成树算法](https://labuladong.gitee.io/article/fname.html?fname=kruskal)。
 
 
 
@@ -573,12 +573,12 @@ class UF {
 <summary><strong>引用本文的文章</strong></summary>
 
  - [Dijkstra 算法模板及应用](./../数据结构系列/dijkstra算法.md)
- - [Kruskal 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=kruskal)
- - [Prim 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=prim算法)
+ - [Kruskal 最小生成树算法](https://labuladong.gitee.io/article/fname.html?fname=kruskal)
+ - [Prim 最小生成树算法](https://labuladong.gitee.io/article/fname.html?fname=prim算法)
  - [一文秒杀所有岛屿题目](./../高频面试系列/岛屿题目.md)
- - [二分图判定算法](https://labuladong.github.io/article/fname.html?fname=二分图)
- - [我的刷题心得](https://labuladong.github.io/article/fname.html?fname=算法心得)
- - [用算法打败算法](https://labuladong.github.io/article/fname.html?fname=PDF中的算法)
+ - [二分图判定算法](https://labuladong.gitee.io/article/fname.html?fname=二分图)
+ - [我的刷题心得](https://labuladong.gitee.io/article/fname.html?fname=算法心得)
+ - [用算法打败算法](https://labuladong.gitee.io/article/fname.html?fname=PDF中的算法)
 
 </details><hr>
 
@@ -589,7 +589,7 @@ class UF {
 <details class="hint-container details">
 <summary><strong>引用本文的题目</strong></summary>
 
-<strong>安装 [我的 Chrome 刷题插件](https://labuladong.github.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
+<strong>安装 [我的 Chrome 刷题插件](https://labuladong.gitee.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
 
 | LeetCode | 力扣 |
 | :----: | :----: |

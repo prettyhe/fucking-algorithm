@@ -25,7 +25,7 @@
 
 
 
-前文手把手带你刷二叉树已经写了 [第一期](https://labuladong.github.io/article/fname.html?fname=二叉树系列1)，[第二期](https://labuladong.github.io/article/fname.html?fname=二叉树系列2) 和 [第三期](https://labuladong.github.io/article/fname.html?fname=二叉树系列3)，今天写一篇二叉搜索树（Binary Search Tree，后文简写 BST）相关的文章，手把手带你刷 BST。
+前文手把手带你刷二叉树已经写了 [第一期](https://labuladong.gitee.io/article/fname.html?fname=二叉树系列1)，[第二期](https://labuladong.gitee.io/article/fname.html?fname=二叉树系列2) 和 [第三期](https://labuladong.gitee.io/article/fname.html?fname=二叉树系列3)，今天写一篇二叉搜索树（Binary Search Tree，后文简写 BST）相关的文章，手把手带你刷 BST。
 
 首先，BST 的特性大家应该都很熟悉了：
 
@@ -95,7 +95,7 @@ void traverse(TreeNode root, int k) {
 
 这道题就做完了，不过呢，还是要多说几句，因为这个解法并不是最高效的解法，而是仅仅适用于这道题。
 
-我们前文 [高效计算数据流的中位数](https://labuladong.github.io/article/fname.html?fname=数据流中位数) 中就提过今天的这个问题：
+我们前文 [高效计算数据流的中位数](https://labuladong.gitee.io/article/fname.html?fname=数据流中位数) 中就提过今天的这个问题：
 
 > info：如果让你实现一个在二叉搜索树中通过排名计算对应元素的方法 `select(int k)`，你会怎么设计？
 
@@ -236,8 +236,8 @@ void traverse(TreeNode root) {
 <summary><strong>引用本文的文章</strong></summary>
 
  - [东哥带你刷二叉搜索树（基操篇）](./../数据结构系列/BST2.md)
- - [东哥带你刷二叉搜索树（构造篇）](https://labuladong.github.io/article/fname.html?fname=BST3)
- - [二叉树的递归转迭代的代码框架](https://labuladong.github.io/article/fname.html?fname=迭代遍历二叉树)
+ - [东哥带你刷二叉搜索树（构造篇）](https://labuladong.gitee.io/article/fname.html?fname=BST3)
+ - [二叉树的递归转迭代的代码框架](https://labuladong.gitee.io/article/fname.html?fname=迭代遍历二叉树)
 
 </details><hr>
 
@@ -248,7 +248,7 @@ void traverse(TreeNode root) {
 <details class="hint-container details">
 <summary><strong>引用本文的题目</strong></summary>
 
-<strong>安装 [我的 Chrome 刷题插件](https://labuladong.github.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
+<strong>安装 [我的 Chrome 刷题插件](https://labuladong.gitee.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
 
 | LeetCode | 力扣 |
 | :----: | :----: |

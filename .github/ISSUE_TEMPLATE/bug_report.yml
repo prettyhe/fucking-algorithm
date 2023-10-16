@@ -44,4 +44,4 @@ body:
         - label: 我愿意！
   - type: markdown
     attributes:
-      value: "感谢你的支持，[labuladong 的刷题全家桶](https://labuladong.github.io/article/fname.html?fname=全家桶简介) 会因你变得越来越好！"
+      value: "感谢你的支持，[labuladong 的刷题全家桶](https://labuladong.gitee.io/article/fname.html?fname=全家桶简介) 会因你变得越来越好！"

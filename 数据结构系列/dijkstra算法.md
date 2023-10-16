@@ -19,7 +19,7 @@
 
 但如果你看过历史文章，应该可以对算法形成自己的理解，就会发现很多算法都是换汤不换药，毫无新意，非常枯燥。
 
-比如，[东哥手把手带你刷二叉树（总纲）](./../数据结构系列/二叉树总结.md) 中说二叉树非常重要，你把这个结构掌握了，就会发现 [动态规划](https://labuladong.github.io/article/fname.html?fname=动态规划详解进阶)，[分治算法](https://labuladong.github.io/article/fname.html?fname=分治算法)，[回溯（DFS）算法](https://labuladong.github.io/article/fname.html?fname=回溯算法详解修订版)，[BFS 算法框架](./../算法思维系列/BFS框架.md)，[Union-Find 并查集算法](./../算法思维系列/UnionFind算法详解.md)，[二叉堆实现优先级队列](https://labuladong.github.io/article/fname.html?fname=二叉堆详解实现优先级队列) 就是把二叉树翻来覆去的运用。
+比如，[东哥手把手带你刷二叉树（总纲）](./../数据结构系列/二叉树总结.md) 中说二叉树非常重要，你把这个结构掌握了，就会发现 [动态规划](https://labuladong.gitee.io/article/fname.html?fname=动态规划详解进阶)，[分治算法](https://labuladong.gitee.io/article/fname.html?fname=分治算法)，[回溯（DFS）算法](https://labuladong.gitee.io/article/fname.html?fname=回溯算法详解修订版)，[BFS 算法框架](./../算法思维系列/BFS框架.md)，[Union-Find 并查集算法](./../算法思维系列/UnionFind算法详解.md)，[二叉堆实现优先级队列](https://labuladong.gitee.io/article/fname.html?fname=二叉堆详解实现优先级队列) 就是把二叉树翻来覆去的运用。
 
 那么本文又要告诉你，Dijkstra 算法（一般音译成迪杰斯特拉算法）无非就是一个 BFS 算法的加强版，它们都是从二叉树的层序遍历衍生出来的。
 
@@ -432,7 +432,7 @@ if (distTo[nextNodeID] > distToNextNode) {
 
 从目前的情况来看，显然橙色路径的可能性更大嘛，所以我们希望节点 `2` 排在队列靠前的位置，优先被拿出来向后遍历。
 
-所以我们使用 `PriorityQueue` 作为队列，让 `distFromStart` 的值较小的节点排在前面，这就类似我们之前讲 [贪心算法](https://labuladong.github.io/article/fname.html?fname=跳跃游戏) 说到的贪心思路，可以很大程度上优化算法的效率。
+所以我们使用 `PriorityQueue` 作为队列，让 `distFromStart` 的值较小的节点排在前面，这就类似我们之前讲 [贪心算法](https://labuladong.gitee.io/article/fname.html?fname=跳跃游戏) 说到的贪心思路，可以很大程度上优化算法的效率。
 
 大家应该听过 Bellman-Ford 算法，这个算法是一种更通用的最短路径算法，因为它可以处理带有负权重边的图，Bellman-Ford 算法逻辑和 Dijkstra 算法非常类似，用到的就是普通队列，本文就提一句，后面有空再具体写。
 
@@ -852,7 +852,7 @@ double dijkstra(int start, int end, List<double[]>[] graph) {
 
 好了，到这里本文就结束了，总共 6000 多字，这三道例题都是比较困难的，如果你能够看到这里，真得给你鼓掌。
 
-其实前文 [毕业旅行省钱算法](https://labuladong.github.io/article/fname.html?fname=旅行最短路径) 中讲过限制之下的最小路径问题，当时是使用动态规划思路解决的，但文末也给了 Dijkstra 算法代码，仅仅在本文模板的基础上做了一些变换，你理解本文后可以对照着去看看那道题目。
+其实前文 [毕业旅行省钱算法](https://labuladong.gitee.io/article/fname.html?fname=旅行最短路径) 中讲过限制之下的最小路径问题，当时是使用动态规划思路解决的，但文末也给了 Dijkstra 算法代码，仅仅在本文模板的基础上做了一些变换，你理解本文后可以对照着去看看那道题目。
 
 最后还是那句话，做题在质不在量，希望大家能够透彻理解最基本的数据结构，以不变应万变。
 
@@ -863,15 +863,15 @@ double dijkstra(int start, int end, List<double[]>[] graph) {
 <summary><strong>引用本文的文章</strong></summary>
 
  - [BFS 算法解题套路框架](./../算法思维系列/BFS框架.md)
- - [Kruskal 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=kruskal)
- - [Prim 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=prim算法)
+ - [Kruskal 最小生成树算法](https://labuladong.gitee.io/article/fname.html?fname=kruskal)
+ - [Prim 最小生成树算法](https://labuladong.gitee.io/article/fname.html?fname=prim算法)
  - [东哥带你刷二叉树（纲领篇）](./../数据结构系列/二叉树总结.md)
- - [二分图判定算法](https://labuladong.github.io/article/fname.html?fname=二分图)
+ - [二分图判定算法](https://labuladong.gitee.io/article/fname.html?fname=二分图)
  - [图论基础及遍历算法](./../数据结构系列/图.md)
  - [并查集（Union-Find）算法](./../算法思维系列/UnionFind算法详解.md)
- - [我的刷题心得](https://labuladong.github.io/article/fname.html?fname=算法心得)
- - [旅游省钱大法：加权最短路径](https://labuladong.github.io/article/fname.html?fname=旅行最短路径)
- - [本站简介](https://labuladong.github.io/article/fname.html?fname=home)
+ - [我的刷题心得](https://labuladong.gitee.io/article/fname.html?fname=算法心得)
+ - [旅游省钱大法：加权最短路径](https://labuladong.gitee.io/article/fname.html?fname=旅行最短路径)
+ - [本站简介](https://labuladong.gitee.io/article/fname.html?fname=home)
  - [环检测及拓扑排序算法](./../数据结构系列/拓扑排序.md)
 
 </details><hr>
@@ -883,7 +883,7 @@ double dijkstra(int start, int end, List<double[]>[] graph) {
 <details class="hint-container details">
 <summary><strong>引用本文的题目</strong></summary>
 
-<strong>安装 [我的 Chrome 刷题插件](https://labuladong.github.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
+<strong>安装 [我的 Chrome 刷题插件](https://labuladong.gitee.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
 
 | LeetCode | 力扣 |
 | :----: | :----: |

@@ -312,10 +312,10 @@ void BST(TreeNode root, int target) {
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [东哥带你刷二叉搜索树（构造篇）](https://labuladong.github.io/article/fname.html?fname=BST3)
- - [二叉树的递归转迭代的代码框架](https://labuladong.github.io/article/fname.html?fname=迭代遍历二叉树)
- - [前缀树算法模板秒杀五道算法题](https://labuladong.github.io/article/fname.html?fname=trie)
- - [后序遍历的妙用](https://labuladong.github.io/article/fname.html?fname=后序遍历)
+ - [东哥带你刷二叉搜索树（构造篇）](https://labuladong.gitee.io/article/fname.html?fname=BST3)
+ - [二叉树的递归转迭代的代码框架](https://labuladong.gitee.io/article/fname.html?fname=迭代遍历二叉树)
+ - [前缀树算法模板秒杀五道算法题](https://labuladong.gitee.io/article/fname.html?fname=trie)
+ - [后序遍历的妙用](https://labuladong.gitee.io/article/fname.html?fname=后序遍历)
 
 </details><hr>
 
@@ -326,7 +326,7 @@ void BST(TreeNode root, int target) {
 <details class="hint-container details">
 <summary><strong>引用本文的题目</strong></summary>
 
-<strong>安装 [我的 Chrome 刷题插件](https://labuladong.github.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
+<strong>安装 [我的 Chrome 刷题插件](https://labuladong.gitee.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
 
 | LeetCode | 力扣 |
 | :----: | :----: |

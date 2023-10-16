@@ -393,18 +393,18 @@ while (!q1.isEmpty() && !q2.isEmpty()) {
 <summary><strong>引用本文的文章</strong></summary>
 
  - [Dijkstra 算法模板及应用](./../数据结构系列/dijkstra算法.md)
- - [Prim 最小生成树算法](https://labuladong.github.io/article/fname.html?fname=prim算法)
+ - [Prim 最小生成树算法](https://labuladong.gitee.io/article/fname.html?fname=prim算法)
  - [东哥带你刷二叉树（纲领篇）](./../数据结构系列/二叉树总结.md)
- - [二分图判定算法](https://labuladong.github.io/article/fname.html?fname=二分图)
- - [二叉树的递归转迭代的代码框架](https://labuladong.github.io/article/fname.html?fname=迭代遍历二叉树)
- - [分治算法详解：运算优先级](https://labuladong.github.io/article/fname.html?fname=分治算法)
+ - [二分图判定算法](https://labuladong.gitee.io/article/fname.html?fname=二分图)
+ - [二叉树的递归转迭代的代码框架](https://labuladong.gitee.io/article/fname.html?fname=迭代遍历二叉树)
+ - [分治算法详解：运算优先级](https://labuladong.gitee.io/article/fname.html?fname=分治算法)
  - [如何用 BFS 算法秒杀各种智力题](./../算法思维系列/BFS解决滑动拼图.md)
- - [我的刷题心得](https://labuladong.github.io/article/fname.html?fname=算法心得)
- - [旅游省钱大法：加权最短路径](https://labuladong.github.io/article/fname.html?fname=旅行最短路径)
- - [本站简介](https://labuladong.github.io/article/fname.html?fname=home)
+ - [我的刷题心得](https://labuladong.gitee.io/article/fname.html?fname=算法心得)
+ - [旅游省钱大法：加权最短路径](https://labuladong.gitee.io/article/fname.html?fname=旅行最短路径)
+ - [本站简介](https://labuladong.gitee.io/article/fname.html?fname=home)
  - [环检测及拓扑排序算法](./../数据结构系列/拓扑排序.md)
- - [用算法打败算法](https://labuladong.github.io/article/fname.html?fname=PDF中的算法)
- - [算法学习和心流体验](https://labuladong.github.io/article/fname.html?fname=心流)
+ - [用算法打败算法](https://labuladong.gitee.io/article/fname.html?fname=PDF中的算法)
+ - [算法学习和心流体验](https://labuladong.gitee.io/article/fname.html?fname=心流)
 
 </details><hr>
 
@@ -415,7 +415,7 @@ while (!q1.isEmpty() && !q2.isEmpty()) {
 <details class="hint-container details">
 <summary><strong>引用本文的题目</strong></summary>
 
-<strong>安装 [我的 Chrome 刷题插件](https://labuladong.github.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
+<strong>安装 [我的 Chrome 刷题插件](https://labuladong.gitee.io/article/fname.html?fname=chrome插件简介) 点开下列题目可直接查看解题思路：</strong>
 
 | LeetCode | 力扣 |
 | :----: | :----: |

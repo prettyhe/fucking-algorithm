@@ -299,7 +299,7 @@ class Twitter {
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [数据结构设计：最大栈](https://labuladong.github.io/article/fname.html?fname=最大栈)
+ - [数据结构设计：最大栈](https://labuladong.gitee.io/article/fname.html?fname=最大栈)
 
 </details><hr>
 

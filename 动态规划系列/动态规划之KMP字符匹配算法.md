@@ -13,7 +13,7 @@
 
 **-----------**
 
-> tip：阅读本文之前，建议你先学习一下另一种字符串匹配算法：[Rabin Karp 字符匹配算法](https://labuladong.github.io/article/fname.html?fname=rabinkarp)。
+> tip：阅读本文之前，建议你先学习一下另一种字符串匹配算法：[Rabin Karp 字符匹配算法](https://labuladong.gitee.io/article/fname.html?fname=rabinkarp)。
 
 KMP 算法（Knuth-Morris-Pratt 算法）是一个著名的字符串匹配算法，效率很高，但是确实有点复杂。
 
@@ -424,8 +424,8 @@ KMP 算法也就是动态规划那点事，我们的公众号文章目录有一�
 <details class="hint-container details">
 <summary><strong>引用本文的文章</strong></summary>
 
- - [我的刷题心得](https://labuladong.github.io/article/fname.html?fname=算法心得)
- - [滑动窗口算法延伸：Rabin Karp 字符匹配算法](https://labuladong.github.io/article/fname.html?fname=rabinkarp)
+ - [我的刷题心得](https://labuladong.gitee.io/article/fname.html?fname=算法心得)
+ - [滑动窗口算法延伸：Rabin Karp 字符匹配算法](https://labuladong.gitee.io/article/fname.html?fname=rabinkarp)
 
 </details><hr>
 
