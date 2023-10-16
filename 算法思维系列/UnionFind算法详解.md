@@ -329,7 +329,7 @@ public int find(int x) {
 
 这种路径压缩的效果如下：
 
-![](https://labuladong.github.io/pictures/unionfind/10.jpeg)
+![](https://labuladong.gitee.io/pictures/unionfind/10.jpeg)
 
 比起第一种路径压缩，显然这种方法压缩得更彻底，直接把一整条树枝压平，一点意外都没有。就算一些极端情况下产生了一棵比较高的树，只要一次路径压缩就能大幅降低树高，从 [摊还分析](https://labuladong.gitee.io/article/fname.html?fname=时间复杂度) 的角度来看，所有操作的平均时间复杂度依然是 O(1)，所以从效率的角度来说，推荐你使用这种路径压缩算法。
 

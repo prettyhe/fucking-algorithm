@@ -43,7 +43,7 @@ BFS 相对 DFS 的最主要的区别是：**BFS 找到的路径一定是最短�
 
 净整些花里胡哨的，本质上看这些问题都没啥区别，就是一幅「图」，让你从一个起点，走到终点，问最短路径。这就是 BFS 的本质，框架搞清楚了直接默写就好。
 
-![](https://labuladong.github.io/pictures/BFS/0.jpeg)
+![](https://labuladong.gitee.io/pictures/BFS/0.jpeg)
 
 记住下面这个框架就 OK 了：
 
@@ -84,7 +84,7 @@ int BFS(Node start, Node target) {
 
 先来个简单的问题实践一下 BFS 框架吧，判断一棵二叉树的**最小**高度，这也是力扣第 111 题「二叉树的最小深度」：
 
-![](https://labuladong.github.io/pictures/BFS/title1.jpg)
+![](https://labuladong.gitee.io/pictures/BFS/title1.jpg)
 
 怎么套到 BFS 的框架里呢？首先明确一下起点 `start` 和终点 `target` 是什么，怎么判断到达了终点？
 
@@ -131,7 +131,7 @@ int minDepth(TreeNode root) {
 
 这里注意这个 `while` 循环和 `for` 循环的配合，**`while` 循环控制一层一层往下走，`for` 循环利用 `sz` 变量控制从左到右遍历每一层二叉树节点**：
 
-![](https://labuladong.github.io/pictures/dijkstra/1.jpeg)
+![](https://labuladong.gitee.io/pictures/dijkstra/1.jpeg)
 
 这一点很重要，这个形式在普通 BFS 问题中都很常见，但是在 [Dijkstra 算法模板框架](./../数据结构系列/dijkstra算法.md) 中我们修改了这种代码模式，读完并理解本文后你可以去看看 BFS 算法是如何演变成 Dijkstra 算法在加权图中寻找最短路径的。
 
@@ -161,7 +161,7 @@ BFS 可以找到最短距离，但是空间复杂度高，而 DFS 的空间复�
 
 这是力扣第 752 题「打开转盘锁」，比较有意思：
 
-![](https://labuladong.github.io/pictures/BFS/title2.jpg)
+![](https://labuladong.gitee.io/pictures/BFS/title2.jpg)
 
 函数签名如下：
 
@@ -300,9 +300,9 @@ int openLock(String[] deadends, String target) {
 
 为什么这样能够能够提升效率呢？其实从 Big O 表示法分析算法复杂度的话，它俩的最坏复杂度都是 `O(N)`，但是实际上双向 BFS 确实会快一些，我给你画两张图看一眼就明白了：
 
-![](https://labuladong.github.io/pictures/BFS/1.jpeg)
+![](https://labuladong.gitee.io/pictures/BFS/1.jpeg)
 
-![](https://labuladong.github.io/pictures/BFS/2.jpeg)
+![](https://labuladong.gitee.io/pictures/BFS/2.jpeg)
 
 图示中的树形结构，如果终点在最底部，按照传统 BFS 算法的策略，会把整棵树的节点都搜索一遍，最后找到 `target`；而双向 BFS 其实只遍历了半棵树就出现了交集，也就是找到了最短距离。从这个例子可以直观地感受到，双向 BFS 是要比传统 BFS 高效的。
 

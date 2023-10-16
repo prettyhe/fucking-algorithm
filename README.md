@@ -19,7 +19,7 @@
   * [30 天刷题打卡挑战（升级版）](https://labuladong.gitee.io/article/fname.html?fname=打卡挑战简介)
   * [学习本站所需的 Java 基础](https://labuladong.gitee.io/article/fname.html?fname=网站Java基础)
 
-### [第零章、核心框架汇总](https://labuladong.github.io/algo/)
+### [第零章、核心框架汇总](https://labuladong.gitee.io/algo/)
   * [学习算法和刷题的框架思维](./算法思维系列/学习数据结构和算法的高效方法.md)
   * [我的刷题心得](https://labuladong.gitee.io/article/fname.html?fname=算法心得)
   * [双指针技巧秒杀七道链表题目](https://labuladong.gitee.io/article/fname.html?fname=链表技巧)
@@ -38,14 +38,14 @@
   * [算法笔试「骗分」套路](./技术/刷题技巧.md)
 
 
-### [第一章、手把手刷数据结构](https://labuladong.github.io/algo/)
-  * [手把手刷链表算法](https://labuladong.github.io/algo/)
+### [第一章、手把手刷数据结构](https://labuladong.gitee.io/algo/)
+  * [手把手刷链表算法](https://labuladong.gitee.io/algo/)
     * [双指针技巧秒杀七道链表题目](https://labuladong.gitee.io/article/fname.html?fname=链表技巧)
     * [递归魔法：反转单链表](./数据结构系列/递归反转链表的一部分.md)
     * [如何 K 个一组反转链表](./高频面试系列/k个一组反转链表.md)
     * [如何判断回文链表](./高频面试系列/判断回文链表.md)
 
-  * [手把手刷数组算法](https://labuladong.github.io/algo/)
+  * [手把手刷数组算法](https://labuladong.gitee.io/algo/)
     * [双指针技巧秒杀七道数组题目](./算法思维系列/双指针技巧.md)
     * [小而美的算法技巧：前缀和数组](./算法思维系列/前缀和技巧.md)
     * [小而美的算法技巧：差分数组](./算法思维系列/差分技巧.md)
@@ -59,7 +59,7 @@
     * [常数时间删除/查找数组中的任意元素](https://labuladong.gitee.io/article/fname.html?fname=随机集合)
     * [一道数组去重的算法题把我整不会了](https://labuladong.gitee.io/article/fname.html?fname=单调栈去重)
 
-  * [手把手刷二叉树算法](https://labuladong.github.io/algo/)
+  * [手把手刷二叉树算法](https://labuladong.gitee.io/algo/)
     * [东哥带你刷二叉树（纲领篇）](./数据结构系列/二叉树总结.md)
     * [东哥带你刷二叉树（思路篇）](./数据结构系列/二叉树系列1.md)
     * [东哥带你刷二叉树（构造篇）](./数据结构系列/二叉树系列2.md)
@@ -74,7 +74,7 @@
     * [Git原理之最近公共祖先](https://labuladong.gitee.io/article/fname.html?fname=公共祖先)
     * [如何计算完全二叉树的节点数](https://labuladong.gitee.io/article/fname.html?fname=完全二叉树节点数)
 
-  * [手把手刷图算法](https://labuladong.github.io/algo/)
+  * [手把手刷图算法](https://labuladong.gitee.io/algo/)
     * [图论基础及遍历算法](./数据结构系列/图.md)
     * [众里寻他千百度：名流问题](./高频面试系列/名人问题.md)
     * [环检测及拓扑排序算法](./数据结构系列/拓扑排序.md)
@@ -84,7 +84,7 @@
     * [Prim 最小生成树算法](https://labuladong.gitee.io/article/fname.html?fname=prim算法)
     * [Dijkstra 算法模板及应用](./数据结构系列/dijkstra算法.md)
 
-  * [手把手设计数据结构](https://labuladong.github.io/algo/)
+  * [手把手设计数据结构](https://labuladong.gitee.io/algo/)
     * [单调栈结构解决三道算法题](./数据结构系列/单调栈.md)
     * [单调队列结构解决滑动窗口问题](./数据结构系列/单调队列.md)
     * [算法就像搭乐高：带你手撸 LRU 算法](./高频面试系列/LRU算法.md)
@@ -95,8 +95,8 @@
     * [队列实现栈以及栈实现队列](./数据结构系列/队列实现栈栈实现队列.md)
     * [设计朋友圈时间线功能](./数据结构系列/设计Twitter.md)
 
-### [第二章、手把手刷动态规划](https://labuladong.github.io/algo/)
-  * [动态规划基本技巧](https://labuladong.github.io/algo/)
+### [第二章、手把手刷动态规划](https://labuladong.gitee.io/algo/)
+  * [动态规划基本技巧](https://labuladong.gitee.io/algo/)
     * [动态规划解题套路框架](./动态规划系列/动态规划详解进阶.md)
     * [动态规划设计：最长递增子序列](./动态规划系列/动态规划设计：最长递增子序列.md)
     * [最优子结构原理和 dp 数组遍历方向](./动态规划系列/最优子结构.md)
@@ -105,20 +105,20 @@
     * [动态规划和回溯算法的思维转换](./动态规划系列/单词拼接.md)
     * [对动态规划进行降维打击](./动态规划系列/状态压缩技巧.md)
 
-  * [子序列类型问题](https://labuladong.github.io/algo/)
+  * [子序列类型问题](https://labuladong.gitee.io/algo/)
     * [经典动态规划：编辑距离](./动态规划系列/编辑距离.md)
     * [动态规划设计：最长递增子序列](./动态规划系列/动态规划设计：最长递增子序列.md)
     * [动态规划设计：最大子数组](https://labuladong.gitee.io/article/fname.html?fname=最大子数组)
     * [经典动态规划：最长公共子序列](./动态规划系列/LCS.md)
     * [动态规划之子序列问题解题模板](./动态规划系列/子序列问题模板.md)
 
-  * [背包类型问题](https://labuladong.github.io/algo/)
+  * [背包类型问题](https://labuladong.gitee.io/algo/)
     * [经典动态规划：0-1 背包问题](./动态规划系列/背包问题.md)
     * [经典动态规划：子集背包问题](https://labuladong.gitee.io/article/fname.html?fname=背包子集)
     * [经典动态规划：完全背包问题](https://labuladong.gitee.io/article/fname.html?fname=背包零钱)
     * [目标和：背包问题的变体](https://labuladong.gitee.io/article/fname.html?fname=targetSum)
 
-  * [用动态规划玩游戏](https://labuladong.github.io/algo/)
+  * [用动态规划玩游戏](https://labuladong.gitee.io/algo/)
     * [动态规划之最小路径和](https://labuladong.gitee.io/article/fname.html?fname=最小路径和)
     * [动态规划帮我通关了《魔塔》](./动态规划系列/魔塔.md)
     * [动态规划帮我通关了《辐射4》](https://labuladong.gitee.io/article/fname.html?fname=转盘)
@@ -131,14 +131,14 @@
     * [一个方法团灭 LeetCode 打家劫舍问题](./动态规划系列/抢房子.md)
     * [一个方法团灭 LeetCode 股票买卖问题](./动态规划系列/团灭股票问题.md)
 
-  * [贪心类型问题](https://labuladong.github.io/algo/)
+  * [贪心类型问题](https://labuladong.gitee.io/algo/)
     * [贪心算法之区间调度问题](./动态规划系列/贪心算法之区间调度问题.md)
     * [扫描线技巧：安排会议室](./高频面试系列/安排会议室.md)
     * [剪视频剪出一个贪心算法](https://labuladong.gitee.io/article/fname.html?fname=剪视频)
     * [如何运用贪心思想玩跳跃游戏](https://labuladong.gitee.io/article/fname.html?fname=跳跃游戏)
 
-### [第三章、必知必会算法技巧](https://labuladong.github.io/algo/)
-  * [暴力搜索算法](https://labuladong.github.io/algo/)
+### [第三章、必知必会算法技巧](https://labuladong.gitee.io/algo/)
+  * [暴力搜索算法](https://labuladong.gitee.io/algo/)
     * [回溯算法解题套路框架](./算法思维系列/回溯算法详解修订版.md)
     * [回溯算法秒杀所有排列/组合/子集问题](./高频面试系列/子集排列组合.md)
     * [回溯算法穷举的两种视角](./算法思维系列/集合划分.md)
@@ -148,7 +148,7 @@
     * [BFS 算法解题套路框架](./算法思维系列/BFS框架.md)
     * [如何用 BFS 算法秒杀各种智力题](./算法思维系列/BFS解决滑动拼图.md)
 
-  * [数学运算技巧](https://labuladong.github.io/algo/)
+  * [数学运算技巧](https://labuladong.gitee.io/algo/)
     * [一行代码就能解决的算法题](./高频面试系列/一行代码解决的智力题.md)
     * [几个反直觉的概率问题](./算法思维系列/几个反直觉的概率问题.md)
     * [常用的位操作](./算法思维系列/常用的位操作.md)
@@ -158,7 +158,7 @@
     * [如何高效进行模幂运算](https://labuladong.gitee.io/article/fname.html?fname=superPower)
     * [如何同时寻找缺失和重复的元素](./高频面试系列/缺失和重复的元素.md)
 
-  * [经典面试题](https://labuladong.github.io/algo/)
+  * [经典面试题](https://labuladong.gitee.io/algo/)
     * [分治算法详解：运算优先级](https://labuladong.gitee.io/article/fname.html?fname=分治算法)
     * [一个方法解决三道区间问题](https://labuladong.gitee.io/article/fname.html?fname=区间问题合集)
     * [谁能想到，斗地主也能玩出算法](https://labuladong.gitee.io/article/fname.html?fname=斗地主)
@@ -172,7 +172,7 @@
     * [二分查找高效判定子序列](./高频面试系列/二分查找判定子序列.md)
 
 
-### [第四章、通用计算机技术](https://labuladong.github.io/algo/)
+### [第四章、通用计算机技术](https://labuladong.gitee.io/algo/)
   * [Linux 文件系统都是什么鬼](https://labuladong.gitee.io/article/fname.html?fname=linux文件系统)
   * [Linux 的进程/线程/文件描述符是什么](./技术/linux进程.md)
   * [关于 Linux shell 你必须知道的](./技术/linuxshell.md)

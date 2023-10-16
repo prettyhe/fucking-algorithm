@@ -25,7 +25,7 @@
 
 BST 的基础操作主要依赖「左小右大」的特性，可以在二叉树中做类似二分搜索的操作，寻找一个元素的效率很高。比如下面这就是一棵合法的二叉树：
 
-![](https://labuladong.github.io/pictures/BST/0.png)
+![](https://labuladong.gitee.io/pictures/BST/0.png)
 
 对于 BST 相关的问题，你可能会经常看到类似下面这样的代码逻辑：
 

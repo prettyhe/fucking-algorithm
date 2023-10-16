@@ -26,9 +26,9 @@ public class ReplaceRef {
         final String basePath = new File(baseFolder).getCanonicalPath();
         Pattern refFilePattern = Pattern
                 .compile("\\(https://labuladong\\.github\\.io/article/fname\\.html\\?fname=(.*)\\)");
-        final String targetIndexPrefix = "(https://labuladong.github.io/article/fname.html?fname=";
+        final String targetIndexPrefix = "(https://labuladong.gitee.io/article/fname.html?fname=";
         Pattern refImagePattern = Pattern.compile("\\(https://labuladong\\.github\\.io/pictures/.*\\)");
-        final String targetImagePrefix = "(https://labuladong.github.io/pictures/";
+        final String targetImagePrefix = "(https://labuladong.gitee.io/pictures/";
         final Collection<File> files = listFilesByExtension(new File(baseFolder), new String[] { "md" }, true);
         System.out.println(files.size());
         Map<String, File> map = files.stream()

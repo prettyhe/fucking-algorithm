@@ -15,13 +15,13 @@
 
 滑动拼图游戏大家应该都玩过，下图是一个 4x4 的滑动拼图：
 
-![](https://labuladong.github.io/pictures/sliding_puzzle/1.jpeg)
+![](https://labuladong.gitee.io/pictures/sliding_puzzle/1.jpeg)
 
 拼图中有一个格子是空的，可以利用这个空着的格子移动其他数字。你需要通过移动这些数字，得到某个特定排列顺序，这样就算赢了。
 
 我小时候还玩过一款叫做「华容道」的益智游戏，也和滑动拼图比较类似：
 
-![](https://labuladong.github.io/pictures/sliding_puzzle/2.jpeg)
+![](https://labuladong.gitee.io/pictures/sliding_puzzle/2.jpeg)
 
 实际上，滑动拼图游戏也叫数字华容道，你看它俩挺相似的。
 
@@ -37,7 +37,7 @@
 
 比如说输入的二维数组 `board = [[4,1,2],[5,0,3]]`，算法应该返回 5：
 
-![](https://labuladong.github.io/pictures/sliding_puzzle/5.jpeg)
+![](https://labuladong.gitee.io/pictures/sliding_puzzle/5.jpeg)
 
 如果输入的是 `board = [[1,2,3],[5,4,0]]`，则算法返回 -1，因为这种局面下无论如何都不能赢得游戏。
 
@@ -57,7 +57,7 @@
 
 明白了这个道理，我们的问题就转化成了：**如何穷举出 `board` 当前局面下可能衍生出的所有局面**？这就简单了，看数字 0 的位置呗，和上下左右的数字进行交换就行了：
 
-![](https://labuladong.github.io/pictures/sliding_puzzle/3.jpeg)
+![](https://labuladong.gitee.io/pictures/sliding_puzzle/3.jpeg)
 
 这样其实就是一个 BFS 问题，每次先找到数字 0，然后和周围的数字进行交换，形成新的局面加入队列…… 当第一次到达 `target` 时，就得到了赢得游戏的最少步数。
 
@@ -80,7 +80,7 @@ int[][] neighbor = new int[][]{
 
 **这个含义就是，在一维字符串中，索引 `i` 在二维数组中的的相邻索引为 `neighbor[i]`**：
 
-![](https://labuladong.github.io/pictures/sliding_puzzle/4.jpeg)
+![](https://labuladong.gitee.io/pictures/sliding_puzzle/4.jpeg)
 
 那么对于一个 `m x n` 的二维数组，手写它的一维索引映射肯定不现实了，如何用代码生成它的一维索引映射呢？
 
